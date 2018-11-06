@@ -12,7 +12,7 @@ def angle(time):
     hour_t = int(time[0:mark])%12
         
     mins = 360/60* mins_t
-    hour= (360/12* hour_t) + 30*mins_t/60
+    hour= 30* (hour_t + mins_t/60)
     
     return min(abs(hour-mins), (360-abs(hour-mins)))
 
