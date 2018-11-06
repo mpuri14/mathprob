@@ -1,3 +1,5 @@
+#this program calculates the angle between the hour hand and the minute hand for a given time
+
 
 def angle(time):
     mark=0
