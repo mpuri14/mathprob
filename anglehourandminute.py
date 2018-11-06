@@ -12,11 +12,6 @@ def angle(time):
     mins = 360/60* mins_t
     hour= (360/12* hour_t) + 30*mins_t/60
     
-
-    print ("ans1 is ", abs(hour-mins))
-    print ("ans2 is ", abs(hour-(360-mins)))
-    
-    
     return min(abs(hour-mins), (360-abs(hour-mins)))
 
 
